@@ -1,0 +1,14 @@
+{
+  "name": "dom-tree-serializer",
+  "version": "1.0.0",
+  "description": "Dom changes serializer - base on MutationSummary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shilo Mangam",
+  "license": "ISC",
+  "dependencies": {
+    "mutation-summary": "^0.1.1"
+  }
+}
