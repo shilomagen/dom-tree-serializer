@@ -1,6 +1,6 @@
 {
   "name": "dom-tree-serializer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dom changes serializer - base on MutationSummary",
   "main": "index.js",
   "scripts": {
