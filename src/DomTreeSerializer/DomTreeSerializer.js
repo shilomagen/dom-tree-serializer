@@ -1,6 +1,6 @@
 const MutationSummary = require('mutation-summary');
 
-module.exports = function DomTreeSerializer(target, mirror) {
+function DomTreeSerializer(target, mirror) {
   var _this = this;
   this.target = target;
   this.mirror = mirror;
@@ -144,3 +144,5 @@ DomTreeSerializer.prototype.applyChanged = function (summaries) {
     _this.forgetNode(node);
   });
 };
+
+module.exports = DomTreeSerializer;
